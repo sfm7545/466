@@ -1,0 +1,60 @@
+--------------------------------------------------------
+OUTPUT OF LINUX COMMANDS ON KALI LINUX
+--------------------------------------------------------
+scott@scott-VirtualBox:~$ pwd
+/home/scott
+scott@scott-VirtualBox:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  snap  Templates  Videos
+scott@scott-VirtualBox:~$ cd Downloads
+scott@scott-VirtualBox:~/Downloads$ pwd
+/home/scott/Downloads
+scott@scott-VirtualBox:~/Downloads$ cd
+scott@scott-VirtualBox:~$ pwd
+/home/scott
+scott@scott-VirtualBox:~$ mkdir newDirectory
+scott@scott-VirtualBox:~$ ls
+Desktop    Downloads  newDirectory  Public  Templates
+Documents  Music      Pictures      snap    Videos
+scott@scott-VirtualBox:~$ rmdir newDirectory
+scott@scott-VirtualBox:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  snap  Templates  Videos
+scott@scott-VirtualBox:~$ uname
+Linux
+scott@scott-VirtualBox:~$ mkdir testDirectory
+scott@scott-VirtualBox:~$ cd testDirectory
+scott@scott-VirtualBox:~/testDirectory$ touch file.txt
+scott@scott-VirtualBox:~/testDirectory$ ls
+file.txt
+scott@scott-VirtualBox:~/testDirectory$ cp file.txt test.txt
+scott@scott-VirtualBox:~/testDirectory$ ls
+file.txt  test.txt
+scott@scott-VirtualBox:~/testDirectory$ mv test.txt notATest.txt
+scott@scott-VirtualBox:~/testDirectory$ ls
+file.txt  notATest.txt
+scott@scott-VirtualBox:~/testDirectory$ rm file.txt
+scott@scott-VirtualBox:~/testDirectory$ ls
+notATest.txt
+scott@scott-VirtualBox:~/testDirectory$ cat notATest.txt
+scott@scott-VirtualBox:~/testDirectory$ ps
+    PID TTY          TIME CMD
+   2324 pts/0    00:00:00 bash
+   2394 pts/0    00:00:00 ps
+scott@scott-VirtualBox:~/testDirectory$ man mkdir
+scott@scott-VirtualBox:~/testDirectory$ 
+scott@scott-VirtualBox:~/testDirectory$ echo "malware"
+malware
+scott@scott-VirtualBox:~/testDirectory$ df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+tmpfs             787740    1460    786280   1% /run
+/dev/sda2       81983896 9749380  68024036  13% /
+tmpfs            3938696       0   3938696   0% /dev/shm
+tmpfs               5120       8      5112   1% /run/lock
+tmpfs             787736     120    787616   1% /run/user/1000
+
+
+
+
+
+--------------------------------------------------------
+OUTPUT OF LINUX COMMANDS ON KALI LINUX
+--------------------------------------------------------
